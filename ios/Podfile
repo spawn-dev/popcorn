@@ -2,7 +2,7 @@ platform :ios, '10.0'
 
 require_relative '../node_modules/react-native-unimodules/cocoapods'
 
-target 'my-app' do
+target 'popcorn' do
 
   rnPrefix = "../node_modules/react-native"
   

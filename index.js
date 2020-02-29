@@ -1,9 +1,9 @@
 import { AppRegistry, Platform } from 'react-native';
 import App from './App';
 
-AppRegistry.registerComponent('my-app', () => App);
+AppRegistry.registerComponent('popcorn', () => App);
 
 if (Platform.OS === 'web') {
   const rootTag = document.getElementById('root') || document.getElementById('main');
-  AppRegistry.runApplication('my-app', { rootTag });
+  AppRegistry.runApplication('popcorn', { rootTag });
 }
